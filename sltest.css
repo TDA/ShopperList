@@ -1,0 +1,39 @@
+*{
+	-webkit-transition:all 0.8s ease;
+	-moz-transition:all 0.8s ease;
+	transition:all 0.8s ease;
+}
+input[type="text"]{
+	border: solid 2px black;
+}
+th{
+	font-family:"MS Serif", "New York", serif;
+	font-size:1.3em;
+	font-variant:small-caps;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-top: 1px;
+  *margin-right: .3em;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("glyphicons-halflings.png");
+  background-position: 14px 14px;
+  background-repeat: no-repeat;
+}
+.icon-remove {
+  background-position: -312px 0px;
+}
+.remove{
+	cursor:pointer;
+}
+footer{
+	border-top:solid 1px #CCC;
+	width:80%;
+	margin:15% auto 0;
+	padding:2em;
+	
+}

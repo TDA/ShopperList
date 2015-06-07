@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html manifest="sltest.appcache">
+<head>
+<meta charset="utf-8">
+<title>Shopping List</title>
+<link rel="stylesheet" href="Lib/slib.css">
+<link rel="stylesheet" href="sltest.css">
+</head>
+
+<body>
+
+<p>If this is the first time you are using this app, create a list of products that you might buy, the app will then remember the products and you can add items to your shopping checklist and remove them as needed. Goodluck Shopaholics! :D The code is open to all. Feel free to use it. Attribution is not required but will be appreciated :) This is not made for any commercial purpose and does not infringe upon any other copyright. If anyone has a problem with the content of this, kindly contact me on Facebook @Sai Pc.
+
+</p>
+
+<form>
+<label for="new-item">Create New Item</label>
+<input type="text" id="new-item" placeholder="Create new item">
+<input type="button" value="Create" id="create-item">
+
+<hr>
+<label>Choose Product to add to cart</label>
+<select id="item-list">
+<option value="none">Choose a prod</option>
+</select>
+<select id="qty-list">
+<option value="noqty">Specify Qty</option>
+</select>
+
+<input type="button" value="Add To Cart" id="atc">
+
+</form>
+<hr>
+
+<script src="Lib/slib.js"></script>
+<script src="sltest.js"></script>
+</body>
+</html>
